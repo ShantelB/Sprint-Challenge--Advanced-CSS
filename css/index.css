@@ -170,7 +170,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: lightgray;
+  background-color: #F5F5F5;
   padding-top: 2%;
 }
 nav div {
