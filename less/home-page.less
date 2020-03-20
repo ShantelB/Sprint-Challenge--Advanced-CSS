@@ -2,6 +2,10 @@
 
 .home {
 
+  .world {
+    border-radius: 10px;
+  }
+
   .intro {
 
     h2 {
@@ -58,7 +62,17 @@
       }
 
       .btn {
-      }
+        
+        button{
+        .button(darkblue, white);
+          padding:3% 10%;
+          .rounded();
+          &:hover{
+          background-color: lighten(darkblue, 10%);
+          color: red;
+        }
+        }//closing bracket to button
+      }//closing bracket for the button
     }
 
     .walk-img {
